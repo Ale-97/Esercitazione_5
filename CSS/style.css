@@ -1,7 +1,48 @@
+/* RESET */
+
+a,a:hover{
+    color: white;
+}
+
+
+/* CONTAINER PRINCIPALE */
+
 .container-fluid{
     background-image: url(https://www.w3schools.com/w3images/forestbridge.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+.row{
     height:100vh;
+}
+/* ----TOP-BAR---- */
+
+.col-1{padding: 20px;
+font-size: 30px;
+}
+
+
+/* ---HEADER---- */
+
+.col h1{
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+.col h5{
+    border-top: 1px solid white;
+    padding-top:20px;
+    font-size: 18px;
+    width:200px;
+    text-align: center;
+}
+
+
+/* ----FOOTER---- */
+
+.col-2{
+    padding: 20px;
 }

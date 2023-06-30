@@ -16,11 +16,21 @@ a,a:hover{
     color: white;
 }
 .row{
+    animation: B_G_W 0.8s;
     height:100vh;
 }
+@keyframes B_G_W{
+    from{background-color: white;
+        background-image: none;
+
+    }
+    to{
+        background-color: none;
+    }}
 /* ----TOP-BAR---- */
 
-.col-1{padding: 20px;
+.col-1{
+padding: 20px;
 font-size: 30px;
 }
 
@@ -31,6 +41,14 @@ font-size: 30px;
     margin-bottom:10px;
     padding-bottom: 10px;
     font-size: 60px;
+    animation-name: title;
+    animation-duration: 2s;
+}
+@keyframes title{
+    from{position: relative;
+        bottom: 50vh;
+    }
+    to{bottom: -50vh;}
 }
 .col h5{
     border-top: 1px solid white;

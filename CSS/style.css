@@ -16,15 +16,17 @@ a,a:hover{
     color: white;
 }
 .row{
-    animation: B_G_W 0.8s;
+    animation: B_G_W 0.8s; /* do un nome all'animazione e indico quando deve durare*/
     height:100vh;
 }
-@keyframes B_G_W{
-    from{background-color: white;
-        background-image: none;
-
+@keyframes B_G_W{             /*Indico cosa deve fare l'animazione*/
+    
+    /*l'immagine di background è sul padre quindi il figlio "row" coprendo tutta la dimensione del padre
+    appena li do il "background-color:White" la pagina si vedra tutta bianca alla partenza*/
+    from{background-color: white;    
     }
-    to{
+    to{/*qui li dichiaro come si deve concludere l'animazione ovvero con il "background-color: none;"
+        l'animazione di default avverrà in modo fluido e rientrera nella tempistica indicate prima"0.8s" */
         background-color: none;
     }}
 /* ----TOP-BAR---- */
